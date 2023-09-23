@@ -15,6 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* color of paragraphs */
 p {
   color: rgb(85, 85, 85);
 }
@@ -57,6 +58,8 @@ a:hover {
 }
 
 .logo {
+  font-family: "Segoe UI";
+  font-weight: 800;
   font-size: 2rem;
 }
 

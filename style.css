@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Jaapokki";
   background-color: bisque;
   overflow-x: hidden;
 }
@@ -29,6 +29,13 @@ a,
 }
 
 /* Desktop Nav */
+
+#desktop-nav {
+  border-radius: 0;
+  height: 75px;
+  background: rgb(6, 5, 17);
+}
+
 nav,
 .nav-links {
   display: flex;
@@ -44,12 +51,14 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  padding-right: 15px;
+  margin-left: auto;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgba(108, 107, 107, 0.079);
 }
 
 a:hover {
@@ -60,6 +69,9 @@ a:hover {
 }
 
 .logo {
+  padding-left: 15px;
+  margin-right: auto;
+  color: white;
   font-family: "Playball", cursive;
   font-size: 28px;
 }

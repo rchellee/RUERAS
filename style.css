@@ -1,5 +1,6 @@
 /* Whole HTML Document */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&family=Rubik:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -9,6 +10,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: bisque;
+  overflow-x: hidden;
 }
 
 html {
@@ -58,9 +60,8 @@ a:hover {
 }
 
 .logo {
-  font-family: "Segoe UI";
-  font-weight: 800;
-  font-size: 2rem;
+  font-family: "Playball", cursive;
+  font-size: 28px;
 }
 
 .logo:hover {

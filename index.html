@@ -8,70 +8,82 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">Ritchelle Rueras</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contacts</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">CHELLE RUERAS</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+    <header>
+      <nav id="desktop-nav">
+        <div class="logo">Ritchelle Rueras</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/PROFILE_PIC.JPG" alt="Profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello I am</p>
-        <h1 class="title">CHELLE</h1>
-        <p class="section__text__p2">STUDENT</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/cv_rueras.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-          <div id="socials-container">
-            <img
-              src="./assets/linkedin.png"
-              width="50"
-              height="50"
-              alt="My LinkedIn"
-              class="icon"
-              onclick="location.href='https://linkedin.com/in/ritchelle-rueras'"
-            />
-            <img
-              src="./assets/github.png"
-              alt="My Github"
-              class="icon"
-              onclick="location.href='https://github.com/rchellee/RUERAS'"
-            />
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Ritchelle Rueras</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
           </div>
         </div>
+      </nav>
+    </header>
+    <div class="banner">
+      <div class="opacity_overlay">
+        <section id="profile">
+          <div class="section__pic-container">
+            <img src="./assets/PROFILE_PIC.JPG" alt="Profile picture" />
+          </div>
+          <div class="section__text">
+            <p class="section__text__p1">Hello I am</p>
+            <h1 class="title">CHELLE</h1>
+            <p class="section__text__p2">STUDENT</p>
+            <a class="button stroke smoothscroll" href="#about" title=""
+              >More About Me</a
+            >
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/cv_rueras.pdf')"
+              >
+                Download CV
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="location.href='./#contact'"
+              >
+                Contact Info
+              </button>
+              <div id="socials-container">
+                <img
+                  src="./assets/linkedin.png"
+                  width="50"
+                  height="50"
+                  alt="My LinkedIn"
+                  class="icon"
+                  onclick="location.href='https://linkedin.com/in/ritchelle-rueras'"
+                />
+                <img
+                  src="./assets/github.png"
+                  alt="My Github"
+                  class="icon"
+                  onclick="location.href='https://github.com/rchellee/RUERAS'"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+    </div>
     <section id="about">
       <p class="section__text__p1">Get to Know More</p>
       <h1 class="title">About Me</h1>

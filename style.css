@@ -9,7 +9,7 @@
 
 body {
   font-family: "Jaapokki";
-  background-color: bisque;
+  background-color: black;
   overflow-x: hidden;
 }
 header {
@@ -225,20 +225,26 @@ section {
   font-weight: 600;
 }
 
-.section__text__p1 {
+.section__text__p2 {
+  font-size: 1rem;
   text-align: center;
   color: white;
-}
-
-.section__text__p2 {
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
-  color: white;
+  font-family: "lora-regular", serif;
+  line-height: 1.565;
+  margin-bottom: 0;
+  letter-spacing: 0.3rem;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
+  color: #cc005f;
+  font-family: "poppins-bold", sans-serif;
+  line-height: 1.565;
+  margin-bottom: 0;
+  letter-spacing: 0.3rem;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 button.stroke,

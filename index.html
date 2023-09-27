@@ -181,18 +181,6 @@
               >More About Me</a
             >
             <div class="btn-container">
-              <button
-                class="btn btn-color-2"
-                onclick="window.open('./assets/cv_rueras.pdf')"
-              >
-                Download CV
-              </button>
-              <button
-                class="btn btn-color-1"
-                onclick="location.href='./#contact'"
-              >
-                Contact Info
-              </button>
               <div id="socials-container">
                 <img
                   src="./assets/linkedin.png"
@@ -204,11 +192,27 @@
                 />
                 <img
                   src="./assets/github.png"
-                  width="50"
-                  height="50"
+                  width="60"
+                  height="80"
                   alt="My Github"
                   class="icon"
                   onclick="location.href='https://github.com/rchellee/RUERAS'"
+                />
+                <img
+                  src="./assets/facebook.png"
+                  width="50"
+                  height="50"
+                  alt="My Facebook"
+                  class="icon"
+                  onclick="location.href='https://www.facebook.com/ritchelle.rueras.71'"
+                />
+                <img
+                  src="./assets/instagram.png"
+                  width="42"
+                  height="42"
+                  alt="My Instagram"
+                  class="icon"
+                  onclick="location.href='https://www.instagram.com/rtch_elle/?hl=en'"
                 />
               </div>
             </div>
@@ -216,43 +220,47 @@
         </section>
       </div>
     </div>
-    <div class="background">
-      <div class="opacity_overlay">
-        <section id="about">
-          <p class="section__text__p1">Get to Know More</p>
-          <h1 class="title">About Me</h1>
-          <div class="section-container">
-            <div class="section__pic-container">
+    <section id="about">
+      <div class="col-twelve">
+        <h1>About Me</h1>
+        <h5>Get to Know More</h5>
+      </div>
+      <div class="intro-info">
+        <img src="./assets/about-pic.jpg" alt="About Picture" />
+        <p class="lead">
+          "I am highly motivated with a passion for technology and innovation. I
+          have a strong foundation in programming languages and databases. I am
+          also proficient in a variety of software development tools and version
+          control systems (GIT). In addition, I am able to work independently
+          and as part of a team to achieve common goals. I am eager to learn new
+          things and I am always looking for ways to improve my skills. I am
+          confident that I have the skills and knowledge necessary to be a
+          valuable asset to your team."
+        </p>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
               <img
-                src="./assets/about-pic.jpg"
-                alt="About Picture"
-                class="about-pic"
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
               />
+              <h3>Experience</h3>
+              <p>2 years <br />Frontend Developer</p>
             </div>
-            <div class="about-details-container">
-              <div class="about-containers">
-                <div class="details-container">
-                  <img
-                    src="./assets/experience.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <h3>Experience</h3>
-                  <p>2 years <br />Frontend Developer</p>
-                </div>
-                <div class="details-container">
-                  <img
-                    src="./assets/education.png"
-                    alt="Education icon"
-                    class="icon"
-                  />
-                  <h3>Education</h3>
-                  <p>B.S. in Information System<br /></p>
-                </div>
-              </div>
-              <div class="text-container">
-                <hr />
-                <pre style="font-size: large">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.S. in Information System<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <hr />
+            <pre style="font-size: large">
 
         I am highly motivated with a passion for technology and innovation. 
         I have a strong foundation in programming languages and databases. 
@@ -261,19 +269,17 @@
         I am eager to learn new things and I am always looking for ways to improve my skills. 
         I am confident that I have the skills and knowledge necessary to be a valuable asset to your team.
             </pre>
-                <hr />
-              </div>
-            </div>
+            <hr />
           </div>
-          <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='./experience'"
-          />
-        </section>
+        </div>
       </div>
-    </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./experience'"
+      />
+    </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>

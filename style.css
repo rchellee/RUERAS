@@ -145,12 +145,33 @@ button.stroke:hover,
   text-decoration: none;
 }
 
-#socials-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 9rem;
-  gap: 4rem;
+.social-container {
   width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 30rem;
+}
+
+.social-container a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border: 2px solid #313131;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #b6b6b6;
+  margin: 5px 5px;
+}
+.social-container a:hover {
+  transform: scale(1.1);
+  background-color: rgb(36, 36, 36);
+  color: #ff0077;
+  transition: ease.5s;
+  text-decoration: none;
 }
 
 /*Icon*/

@@ -19,9 +19,7 @@
     height: 280px;
   }
   #socials-container {
-    margin-top: 1rem;
-    gap: 0rem;
-    height: 5px;
+    margin-top: 0;
   }
 
   .col-twelve h5 {

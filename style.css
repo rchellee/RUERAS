@@ -4,8 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 body {
+  background: #151515;
   font-family: "Jaapokki";
   overflow-x: hidden;
+  height: 100%;
 }
 header {
   position: absolute;
@@ -19,6 +21,7 @@ header {
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 /* Profile Section */
@@ -32,7 +35,6 @@ html {
   height: 100%;
   display: table;
   position: relative;
-  text-align: center;
 }
 
 .banner .opacity_overlay {
@@ -260,6 +262,7 @@ section {
 }
 
 #about {
+  background: #ffffff;
   position: relative;
 }
 
@@ -369,10 +372,14 @@ p.lead {
   bottom: 10.5rem;
 }
 
-/* Experience Section */
+/* Skills Section */
 
 #skills {
-  position: relative;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+.grey-section {
+  background: #ebebeb;
 }
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -435,6 +442,10 @@ article .icon {
 }
 
 /* Contact Section */
+
+#contact {
+  background: #151515;
+}
 *,
 *:before,
 *:after {
@@ -618,12 +629,13 @@ input {
 /* Footer */
 
 footer {
-  background-color: black;
-  height: 15vh;
-  margin: 14px 10 rem;
-}
-
-footer p {
-  padding-top: 5rem;
+  background-color: #151515;
+  color: #fff;
+  padding: 15px 0;
   text-align: center;
 }
+
+/* footer p {
+  padding-top: 5rem;
+  text-align: center;
+} */

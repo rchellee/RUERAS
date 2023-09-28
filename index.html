@@ -135,7 +135,7 @@
         }
 
         .navbar-sticky {
-          background: rgb(72, 79, 87);
+          background: rgb(36, 47, 60);
         }
         .navbar-sticky .navbar-nav > li > a {
           color: #fff;
@@ -161,15 +161,20 @@
             >
             <div class="btn-container">
               <div class="social-container">
-                <a href="https://www.facebook.com/kylemoniquee"
+                <a href="https://www.facebook.com/ritchelle.rueras.71"
                   ><i class="bx bxl-facebook"></i
                 ></a>
-                <a href=""><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.instagram.com/moniquekylee/"
+                <a href="https://x.com/its_rchelle?s=09"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/rtch_elle/"
                   ><i class="bx bxl-instagram"></i
                 ></a>
-                <a href="https://github.com/Moniquekyle"
+                <a href="https://github.com/rchellee"
                   ><i class="bx bxl-github"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/ritchelle-rueras/"
+                  ><i class="bx bxl-linkedin"></i
                 ></a>
               </div>
             </div>
@@ -198,18 +203,17 @@
           </p>
         </blockquote>
       </div>
-      <a
-        class="button stroke smoothscroll"
-        onclick="window.open('./asset/cv_rueras.pdf')"
-        title=""
-        >Download CV</a
-      >
-      <a
-        class="button stroke smoothscroll"
-        onclick="location.href='./#contact'"
-        title=""
-        >CONTACT</a
-      >
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/cv_rueras.pdf')"
+        >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -526,21 +530,23 @@
     <footer>
       <p>Copyright &#169; 2023 CHELLE RUERAS. All Rights Reserved.</p>
     </footer>
-    <script src="script.js">
-      window.onscroll = function() {myFunction()};
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
 
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
 
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-            navbar.classList.add("navbar-sticky")
-            navbar.classList.remove("navbar-default")
-          } else {
-            navbar.classList.remove("sticky")
-          }
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+          navbar.classList.add("navbar-sticky");
+          navbar.classList.remove("navbar-default");
+        } else {
+          navbar.classList.remove("sticky");
         }
+      }
     </script>
   </body>
 </html>

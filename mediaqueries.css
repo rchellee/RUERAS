@@ -1,3 +1,37 @@
+@media (max-width: 768px) {
+  /* Adjust styles for screens with a maximum width of 768px */
+  .banner {
+    height: 80vh; /* Adjust banner height for smaller screens */
+  }
+
+  .navbar-header {
+    padding-top: 1rem;
+  }
+
+  .sticky {
+    top: -10px;
+  }
+
+  .banner .opacity_overlay .section__pic-container {
+    padding-top: 7rem;
+    height: 550px;
+  }
+
+  .section__text {
+    padding: 2rem;
+  }
+
+  .intro-info img {
+    padding-top: 10rem;
+    width: 50%;
+    height: 25%;
+  }
+
+  .intro-info .lead {
+    padding-left: 35rem;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .banner {
     height: 500px;
@@ -19,7 +53,7 @@
     height: 280px;
   }
   #socials-container {
-    margin-top: 0;
+    margin-top: none;
   }
 
   .col-twelve h5 {
@@ -33,6 +67,12 @@
     text-align: center;
     padding-left: 0rem;
     font-size: 1.5rem;
+  }
+
+  button.stroke,
+  .button.stroke a {
+    background: transparent !important;
+    border: 2px solid #313131;
   }
   footer {
     background-color: none;

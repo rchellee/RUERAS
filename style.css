@@ -147,10 +147,8 @@ button.stroke:hover,
 
 .social-container {
   width: 100%;
-  align-items: center;
-  justify-content: center;
+
   margin-top: 70px;
-  gap: 30rem;
 }
 
 .social-container a {
@@ -186,19 +184,42 @@ button.stroke:hover,
 .btn-container {
   display: flex;
   justify-self: center;
-  gap: 1rem;
+  gap: 25rem;
+  width: 100%;
 }
 
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
   border-radius: 2rem;
+  width: 100%;
 }
 
-.btn-container {
-  gap: 1rem;
+.btn-color-2,
+.btn-color-1 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(202, 198, 190);
+  color: black;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.btn-color-2:hover {
+  background: rgb(0, 0, 0);
+  color: white;
 }
 
 .row {
@@ -272,8 +293,8 @@ section {
 }
 
 .intro-info img {
-  height: 9rem;
-  width: 9rem;
+  height: 23rem;
+  width: 23rem;
   border-radius: 50%;
   margin: 0.9rem 0 0 0;
   float: left;
@@ -281,7 +302,7 @@ section {
 
 .intro-info .lead {
   text-align: left;
-  padding-left: 13rem;
+  padding-left: 25rem;
 }
 
 p.lead {
@@ -337,11 +358,15 @@ p.lead {
   letter-spacing: 0.25rem;
   line-height: 1.5;
 }
+.dl-boxes a {
+  justify-content: center;
+  width: 100%;
+}
 
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 10.5rem;
 }
 
 /* Experience Section */

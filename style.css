@@ -231,7 +231,7 @@ button.stroke:hover,
 /* About Section */
 
 section {
-  padding-top: 4vh;
+  padding-top: 10vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -279,7 +279,7 @@ section {
 }
 .col-twelve h1 {
   color: #ff0077;
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   line-height: 1.875;
   margin-bottom: 0.3rem;
   letter-spacing: 0.4rem;
@@ -370,11 +370,17 @@ p.lead {
   bottom: 10.5rem;
 }
 
+/* experience Section */
+#experience{
+  padding-top: 15rem;
+}
+
 /* Skills Section */
 
 #skills {
-  padding-top: 12rem;
+  padding-top: 5rem;
   padding-bottom: 12rem;
+  background: #ebebeb;
 }
 .grey-section {
   background: #ebebeb;
@@ -382,7 +388,7 @@ p.lead {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 2.75rem;
   margin-bottom: 2rem;
 }
 
@@ -442,7 +448,7 @@ article .icon {
 /* Contact Section */
 
 #contact {
-  background: #151515;
+  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
 }
 *,
 *:before,
@@ -462,7 +468,6 @@ input {
 
 .background {
   display: flex;
-  min-height: 100vh;
   background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
   font-size: 12px;
 }
@@ -476,6 +481,7 @@ input {
 .screen {
   position: relative;
   background: #3e3e3e;
+  height: 533px;
   border-radius: 15px;
 }
 
@@ -629,11 +635,11 @@ input {
 footer {
   background-color: #151515;
   color: #fff;
-  padding: 15px 0;
   text-align: center;
+
 }
 
-/* footer p {
-  padding-top: 5rem;
+footer p {
+  padding-top: 1rem;
   text-align: center;
-} */
+}
